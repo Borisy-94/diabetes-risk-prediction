@@ -1,6 +1,6 @@
 # 🏥 Predictive Diabetes Analytics
 Power BI Dashboard
-
+![Dashboard](dashboard_preview.png.png.png)
 ## 📋 Projektübersicht
 Dieses Projekt demonstriert eine vollständige End-to-End Machine Learning Pipeline zur Früherkennung von Diabetes-Risikopatienten — von der Datengenerierung über das Modelltraining bis hin zur Echtzeit-API und einem interaktiven Power BI Dashboard.
 
