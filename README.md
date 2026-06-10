@@ -1,13 +1,13 @@
-🏥 Predictive Diabetes Analytics
+# 🏥 Predictive Diabetes Analytics
 Power BI Dashboard
 
-📋 Projektübersicht
+## 📋 Projektübersicht
 Dieses Projekt demonstriert eine vollständige End-to-End Machine Learning Pipeline zur Früherkennung von Diabetes-Risikopatienten — von der Datengenerierung über das Modelltraining bis hin zur Echtzeit-API und einem interaktiven Power BI Dashboard.
 
 Hintergrund: Als ausgebildeter biomedizinischer Laboranalytiker kombiniere ich mein klinisches Wissen mit Data Analytics, um aus Patientendaten actionable Insights zu gewinnen — von der individuellen Laboranalyse zur bevölkerungsweiten Risikoerkennung.
 
 
-🎯 Projektziele
+## 🎯 Projektziele
 
 Diabetes-Risiko aus klinischen Patientendaten vorhersagen
 ML-Modell als REST API in Echtzeit deployen
@@ -15,7 +15,7 @@ Ergebnisse in einem interaktiven Dashboard visualisieren
 Modell-Entscheidungen mit SHAP transparent machen
 
 
-🏗️ Architektur
+## 🏗️ Architektur
 📁 Datengenerierung (Python/Faker)
     ↓
 📊 Explorative Datenanalyse (EDA)
@@ -26,7 +26,7 @@ Modell-Entscheidungen mit SHAP transparent machen
     ↓
 📈 Dashboard Visualisierung (Power BI)
 
-📊 Ergebnisse
+## 📊 Ergebnisse
 ModellAUC-ROCRecallPräzisionF1-ScoreLogistic Regression0.8510.7830.7200.750Random Forest0.9020.8140.7600.786XGBoost ✅0.9230.8410.7840.811
 Top Risikofaktoren (SHAP)
 
@@ -37,7 +37,7 @@ Top Risikofaktoren (SHAP)
 🔵 Insulin — metabolischer Indikator (SHAP: 0.31)
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 KategorieTechnologieSprachePython 3.14MLXGBoost, scikit-learn, SHAPDatengenerierungFaker, NumPy, PandasAPIFastAPI, Uvicorn, PydanticVisualisierungPower BI, Matplotlib, SeabornVersionierungGit, GitHub
 
 📁 Projektstruktur
@@ -70,7 +70,7 @@ diabetes-risk-prediction/
     ├── diabetes_xgboost_model.pkl      # Trainiertes Modell
     └── feature_config.json             # Feature Konfiguration
 
-🚀 Schnellstart
+## 🚀 Schnellstart
 1. Repository klonen
 bashgit clone https://github.com/DEIN_USERNAME/diabetes-risk-prediction.git
 cd diabetes-risk-prediction
@@ -86,7 +86,7 @@ uvicorn app.main:app --port 8000
 5. API testen
 http://localhost:8000/docs  ← Swagger UI
 
-📡 API Endpoints
+## 📡 API Endpoints
 MethodEndpointBeschreibungGET/API StatusGET/healthHealth CheckGET/statsModell-MetrikenPOST/predictEinzelvorhersagePOST/predict/batchBatch-Vorhersage
 Beispiel-Anfrage
 bashcurl -X POST "http://localhost:8000/predict" \
@@ -109,10 +109,10 @@ json{
   ]
 }
 
-👨‍💻 Über den Autor
+## 👨‍💻 Über den Autor
 Boris Petamba — Junior Data Analyst | Hamm, NRW
 Biomedizinischer Laboranalytiker mit IHK-zertifizierter Data Analytics Ausbildung. Spezialisierung auf Healthcare Analytics und ML-Anwendungen im medizinischen Bereich.
 Bild anzeigen
 
-📄 Lizenz
+## 📄 Lizenz
 MIT License — frei verwendbar für Lern- und Portfolio-Zwecke.
