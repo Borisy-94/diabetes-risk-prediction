@@ -1,0 +1,23 @@
+{
+  "features": [
+    "age",
+    "sex",
+    "bmi",
+    "glucose",
+    "blood_pressure",
+    "insulin",
+    "skin_thickness",
+    "pregnancies",
+    "family_history",
+    "dpf",
+    "smoker",
+    "activity_level",
+    "bmi_category",
+    "age_group",
+    "hyperglycemia",
+    "obese",
+    "glucose_bmi",
+    "risk_score"
+  ],
+  "target": "diabetes"
+}

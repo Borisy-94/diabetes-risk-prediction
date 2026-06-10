@@ -1,0 +1,6 @@
+Feature,SHAP_Wert
+Glukose,0.92
+BMI,0.74
+Alter,0.58
+Familie,0.45
+Insulin,0.31
